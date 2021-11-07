@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        label, input {
+            display: block;
+            padding: 5px;
+            margin: 5px 0px;
+            font-size: 18px;
+        }
+
+        input[type='submit']{
+            display: block;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+    <title>Get vs post</title>
+</head>
+
+<!-- Rode o servidor Apache do Xampp -->
+
+<body>
+    <form action="post.php" method="POST">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name">
+        <label for="surname">Apellido</label>
+        <input type="text" id="surname" name="surname">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

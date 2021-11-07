@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body{
+        font-family: Arial;
+      }
+      meter, label{
+        padding: 2px;
+        font-size: 18px;
+      }
+    </style>
+    <title>Más elementos para formularios</title>
+</head>
+
+<!--
+    meter -> Representa un valor dentro de un rango conocido
+ -->
+
+<body>
+    <form>
+        <label for="fuel">Combustible</label>
+        <meter id="fuel" min="0" max="100" value="20" low="30" high="75" optimum="50">
+        </meter>
+
+        <meter id="fuel" min="0" max="100" value="60" low="30" high="75" optimum="50"></meter>
+
+        <meter id="fuel" min="0" max="100" value="85" low="30" high="75" optimum="50"></meter>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body{
+        font-family: Arial;
+      }
+      input, select{
+        padding: 2px;
+        font-size: 18px;
+      }
+    </style>
+    <title>Elementos seleccionables</title>
+</head>
+<!--
+    select -> Crea una lista de opciones donde podemos seleccionar una o varias opciones
+
+    Cada opción irá dentro de una etiqueta <option> </option>
+
+    Si tenemos muchas opciones podemos ordenarlas por categorías a través de la etiqueta <optgroup> con el atributo label para nombrar la categoría
+ -->
+
+<body>
+
+    <h1>Elemento select multiple</h1>
+
+    <form>
+        <select name="lenguajes" multiple>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contenido embebido</title>
+</head>
+<style>
+    video,
+    img {
+        max-width: 100%;
+    }
+</style>
+<!--
+    DPR (Device Pixel Ratio)
+        Es la relación que existe entre los píxeles reales que tiene el dispositivo y los píxeles que tenemos disponibles para "pintar" contenido
+
+    DPR = pixeles reales / pixeles disponibles
+ -->
+
+<body>
+    <h1>Contenido embebido</h1>
+    <picture>
+        <source srcset="
+            assets/images/portada.webp,
+            assets/images/portada.jpg">
+        <img src="assets/images/portada.jpg" alt="HTML5 Desde Cero 2020/2021">
+</body>
+
+</html>
